@@ -1,0 +1,48 @@
+@import url(reset.css);
+
+@font-face {
+   font-family: 'courgette';
+   src: url('../font/courgette-regular-webfont.eot');
+   src: url('../font/courgette-regular-webfont.eot?#iefix') format('embedded-opentype'),
+      url('../font/courgette-regular-webfont.woff') format('woff'),
+      url('../font/courgette-regular-webfont.ttf') format('truetype'),
+      url('../font/courgette-regular-webfont.svg#typoslabserif-lightregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+p{
+    font-family: 'courgette';
+    color:#fff;
+	-moz-user-select: none; /* Mozilla Firefox */
+	-ms-user-select: none; /* Internet Explorer (не поддерживается) */
+	-o-user-select: none; /* Opera Presto (не поддерживается) */
+	-webkit-user-select: none; /* Google Chrome, Opera Next, Safari */
+    font-size: 80px;
+    text-align: center;
+    padding-top: 20%;
+    text-shadow: 0 1px 1px #000a33;
+}
+
+a{
+    font-family: 'courgette';
+    color:#fff;
+	-moz-user-select: none; /* Mozilla Firefox */
+	-ms-user-select: none; /* Internet Explorer (не поддерживается) */
+	-o-user-select: none; /* Opera Presto (не поддерживается) */
+	-webkit-user-select: none; /* Google Chrome, Opera Next, Safari */
+    text-align: center;
+    text-shadow: 0 1px 1px #000a33;
+}
+
+video{
+    position:fixed;
+    z-index:-1;
+    min-width:100%;
+    min-height:100%;
+    overflow:hidden; 
+}
+
+.top_home_logo{
+background:url('/svg/vk.svg') no-repeat 50% / contain;height:19px;width:34px;margin:11px 10px 0 0
+}
